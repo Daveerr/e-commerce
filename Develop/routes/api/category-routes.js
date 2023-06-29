@@ -37,14 +37,20 @@ router.get("/:id", async (req, res) => {
 
 router.post("/", (req, res) => {
   // create a new category
+  try {
+  } catch (error) {}
 });
 
 router.put("/:id", (req, res) => {
   // update a category by its `id` value
+  try {
+  } catch (error) {}
 });
 
 router.delete("/:id", (req, res) => {
   // delete a category by its `id` value
+  try {
+  } catch (error) {}
 });
 
 module.exports = router;
